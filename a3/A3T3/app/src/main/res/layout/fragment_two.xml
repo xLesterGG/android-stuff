@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a4329619.lab5task2.FragmentTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected Word"
+            android:id="@+id/tvSelected"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:layout_below="@+id/tvSelected"
+            android:textColor="#ff0000"
+            android:paddingTop="10dp"
+            android:id="@+id/tvWord"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Found in "
+            android:paddingTop="10dp"
+            android:layout_below="@id/tvWord"
+            android:id="@+id/tvFound"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The paragraph aaaaaaaaaaaaaa"
+            android:id="@+id/tvFound1"
+            android:paddingTop="10dp"
+            android:layout_below="@+id/tvFound"/>
+    </RelativeLayout>
+
+
+</FrameLayout>

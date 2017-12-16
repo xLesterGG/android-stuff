@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lesgo.a4t222.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginRight="30dp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:theme="@style/MyEditTextTheme"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/eName"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Select Name"
+            android:background="#616161"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nationality"
+            android:layout_marginRight="5dp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:theme="@style/MyEditTextTheme"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/eNationality"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:theme="@style/MyEditTextTheme"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/eEmail"
+            android:textColor="#ffffff"
+            android:text="aaa@gmail.com"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Select Nationality"
+            android:background="#616161"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sButton"
+        android:background="#616161"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/message"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>

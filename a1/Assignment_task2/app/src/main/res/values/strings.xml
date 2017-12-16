@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment1_task2</string>
+    <string name="mike">Mike Wazowski</string>
+    <string name="programming">Programming </string>
+    <string name="proficiency">Proficiency</string>
+    <string name="android">Android</string>
+
+    <string name="java">Java</string>
+
+    <string name="cs">C Sharp</string>
+
+    <string name="personality">Personality</string>
+
+    <string name="mike1">Mike Wozowski is a proud and confident monster. Mike has a romantic side, shown by dating Cella Mae, presumably the one Mike
+    wants to tie the knot with, and refers to as his <b>schmoopsie-poo</b> although he has a self-centered side</string>
+
+</resources>

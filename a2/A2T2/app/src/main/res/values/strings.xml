@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">A2T2</string>
+    <string name="hello">Hello world</string>
+</resources>

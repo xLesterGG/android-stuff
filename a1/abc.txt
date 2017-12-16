@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+   <LinearLayout
+       android:layout_width="0dip"
+       android:layout_weight="0.5"
+       android:layout_height="fill_parent"
+       android:background="#37BFC1">   
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_weight="0.5"
+        android:layout_height="fill_parent"
+        android:background="#ABD036">
+    </LinearLayout>
+    
+
+</LinearLayout>
+
+
+
+
+
+
+
+<resources>
+    <string name="app_name">Assignment1_task2</string>
+    <string name="mike">Mike Wazowski</string>
+    <string name="programming">Programming Proficiency</string>
+    <string name="android">Adnroid</string>
+
+    <string name="java">Java</string>
+
+    <string name="cs">C Sharp</string>
+
+    <string name="personality">Personality</string>
+
+    <string name="mike1">Mike Wozowski is a proud and confident monster. Mike has a romantic side, shown by dating Cella Mae, presumably the one Mike
+    wants to tie the knot with, and refers to as his schmoopsie-poo although he has a self-centered side</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_weigh<<t="0.3"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mike"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_weight="0.3"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+
+    </LinearLayout>   
+
+

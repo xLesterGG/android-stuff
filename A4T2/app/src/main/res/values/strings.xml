@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">A4T2</string>
+    <string name="day">Day mode</string>
+    <string name="night">Night mode</string>
+</resources>

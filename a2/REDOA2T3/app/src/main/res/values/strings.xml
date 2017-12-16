@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">A2T3</string>
+    <string name="cups">Cup:</string>
+    <string name="table">Table Spoon:</string>
+    <string name="tea">Tea Spoon:</string>
+    <string name="l">Litres</string>
+    <string name="ml">Millilitres</string>
+    <string name="display">Display in Litres</string>
+    <string name="convert">Convert</string>
+    <string name="converter">Conversion app</string>
+
+
+
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lesgo.assignment_task2.MainActivity"
+    android:background="@drawable/bbbbbbbbbbbbbb"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+                <ImageView
+                    android:paddingTop="20px"
+                    android:layout_width="match_parent"
+                    android:layout_height="800px"
+                    android:src="@drawable/mike"
+                    android:id="@+id/Mike"
+                    />
+
+                <TextView
+                    android:paddingTop="30px"
+                    android:paddingBottom="30px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mike"
+                    android:layout_below="@id/Mike"
+                    android:textAlignment="center"
+                    android:textSize="14pt"
+                    android:textStyle="bold"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    //before this
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B3ffffff"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/programming"
+            android:textSize="17dp"
+            android:paddingTop="5dp"
+            android:id="@+id/prog"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proficiency"
+            android:textSize="17dp"
+            android:id="@+id/pro"
+            android:layout_below="@id/prog"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android"
+            android:layout_alignRight="@id/prog"
+            android:paddingTop="5dp"
+            android:paddingRight="220dp"
+            android:textSize="13dp"
+            android:id="@+id/android"
+            android:textColor="#ff0000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/java"
+            android:layout_alignRight="@id/android"
+            android:paddingTop="5dp"
+            android:paddingRight="180dp"
+            android:textSize="13dp"
+            android:textColor="#ff0000"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cs"
+            android:id="@+id/cs"
+            android:layout_below="@id/android"
+            android:layout_alignRight="@id/prog"
+            android:paddingTop="2dp"
+            android:paddingRight="220dp"
+            android:textSize="13dp"
+            android:textColor="#ff0000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personality"
+            android:textSize="18dp"
+            android:paddingTop="10dp"
+            android:id="@+id/personality"
+            android:layout_below="@id/pro"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mike1"
+            android:id="@+id/perso"
+            android:layout_below="@id/cs"
+            android:layout_alignRight="@id/personality"
+            android:paddingLeft="140dp"
+            android:paddingTop="18dp"
+            android:textSize="13dp"
+            android:paddingRight="14dp"
+            android:textColor="#000000"     />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
